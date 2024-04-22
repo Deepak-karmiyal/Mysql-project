@@ -1,1 +1,1 @@
-This Project is for Data Analysis of an E-xommerce.
+This Project is for Data Analysis of an E-commerce.
