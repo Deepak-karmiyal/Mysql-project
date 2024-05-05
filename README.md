@@ -57,4 +57,11 @@ GROUP BY ProductCategory;
 ## Data Visualization
 Visualizing total sales by product category using a bar chart:
 
-![image](![image](https://github.com/Deepak-karmiyal/SwiftMarket-mysql-project/assets/139327222/16e350cf-a322-4568-9e64-dcdd7312102d)
+![image](https://github.com/Deepak-karmiyal/SwiftMarket-mysql-project/assets/139327222/16e350cf-a322-4568-9e64-dcdd7312102d)
+
+##  Results and Insights
+The analysis reveals that Pet Supplies and Accessories are the best-selling product category, Bihar has maximum no. of customres, 
+march and may has highest growth rate in sales, Dora-Aggarwal	and Agate-Kalita are the suppliers with maximum sales, Goa and bihar generated maximum revenue.
+
+## Contact Information
+For any inquiries or collaborations, feel free to reach out to Karmiyaldeepak010@gmail.com.
