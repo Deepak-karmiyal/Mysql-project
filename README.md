@@ -56,5 +56,5 @@ GROUP BY ProductCategory;
 
 ## Data Visualization
 Visualizing total sales by product category using a bar chart:
-![image]("C:\DEEPAK SINGH\mysqlproject\29-04-project-query\output.png")
 
+![image](![image](https://github.com/Deepak-karmiyal/SwiftMarket-mysql-project/assets/139327222/16e350cf-a322-4568-9e64-dcdd7312102d)
