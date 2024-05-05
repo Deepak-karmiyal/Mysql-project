@@ -1,51 +1,67 @@
 # Swift Market MySQL Database
+![image](https://cdn1.expresscomputer.in/wp-content/uploads/2023/01/04165947/EC_Retail_ECommerce_750.jpg)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Description
-
-The Swift Market MySQL Database is a relational database containing data related to e-commerce transactions, products, customers, and more. This README provides an overview of the database schema, its features, and how to use it.
-
-## Table of Contents
-
-- [Database Schema](#database-schema)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Database Schema
-
-Describe the structure of the MySQL database. Provide details about the tables, their relationships, and the fields or attributes within each table. Include information about primary keys, foreign keys, and any constraints or indexes applied to the tables.
+## Overview
+This project aims to analyze e-commerce sales data stored in a MySQL database. Using Jupyter Notebook, we perform SQL queries to extract insights from the data and visualize them using charts and graphs.
 
 ## Features
+- Data querying with MYSQL in Jupyter Notebook.
+- Data visualization using charts and graphs.
+- Insights gained from the analysis.
 
-List and describe the key features or functionalities of the Swift Market MySQL Database. Explain how it can be used for analyzing e-commerce data, generating reports, or building applications.
+## Technologies Used
+- MySQL for database management.
+- Jupyter Notebook for data analysis and visualization.
+- Matplotlib and Seaborn for creating visualizations.
 
-## Installation
+## Installation and Setup
+To set up the project environment:
 
-Explain how to set up the Swift Market MySQL Database locally or on a server. Provide step-by-step instructions for installing MySQL, creating the database, and importing the data. Include any prerequisites or dependencies required for installation.
+- Install MySQL and Jupyter Notebook.
+- Install required Python libraries:
+```
+import os
 
-## Usage
+import numpy as np
 
-Provide examples of how to use the Swift Market MySQL Database for querying data, performing analysis, or running SQL queries. Include sample queries for common tasks such as retrieving product information, calculating sales metrics, or segmenting customers.
+import pandas as pd
 
-## Contributing
+import matplotlib.pyplot as plt
 
-Explain how others can contribute to the Swift Market MySQL Database project. Provide guidelines for submitting database schema changes, adding new features, or improving documentation. Include information on how to set up the development environment and any coding standards to follow.
+import seaborn as sns
+import mysql.connector
+from dotenv import load_dotenv
+```
 
-## License
-
-This database is provided under the [MIT License](LICENSE). Refer to the license file for more information.
-
-## Contact
-
-If you have any questions, feedback, or inquiries about the Swift Market MySQL Database, please contact [Your Name] at [Your Email Address].
+- Configure database connection details in Jupyter Notebook.
 
 
-## Contact
+## Data Exploration
+The dataset contains information about e-commerce sales, including customer details. Here's a sample of the records:
 
-Provide contact information for users to reach out to you with questions, feedback, or inquiries about the project. Include your email address or links to your social media profiles.
+| CustomerID | FirstName | LastName | Email       | Phone  | Address | State |
+|---------|------------|-----------|-------------------|------------|----------|-------|
+| 1001    | Mahika	|Sunder|	MahikaSunder_11@zmail.com	|03412176590	|H.No. 155, Chana|	Assam   |
+| 1002    | Zeeshan	|Vasa|	ZeeshanVasa_1@zmail.com	|+911151051656|	52, Roy Nagar|	Tripura|
+...
 
+## Query Examples
+Example SQL query to find total sales by product category:
+```
+SELECT ProductCategory, SUM(Price * Quantity) AS TotalSales
+FROM Products
+GROUP BY ProductCategory;
+```
+
+## Data Visualization
+Visualizing total sales by product category using a bar chart:
+
+![image](https://github.com/Deepak-karmiyal/SwiftMarket-mysql-project/assets/139327222/16e350cf-a322-4568-9e64-dcdd7312102d)
+
+##  Results and Insights
+The analysis reveals that Pet Supplies and Accessories are the best-selling product category, Bihar has maximum no. of customres, 
+march and may has highest growth rate in sales, Dora-Aggarwal	and Agate-Kalita are the suppliers with maximum sales, Goa and bihar generated maximum revenue.
+
+## Contact Information
+For any inquiries or collaborations, feel free to reach out to Karmiyaldeepak010@gmail.com.
