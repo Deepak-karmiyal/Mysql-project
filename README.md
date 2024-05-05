@@ -38,7 +38,7 @@ from dotenv import load_dotenv
 
 
 ## Data Exploration
-The dataset contains information about e-commerce sales, including customer details, products purchased, and order dates. Here's a sample of the records:
+The dataset contains information about e-commerce sales, including customer details. Here's a sample of the records:
 
 | CustomerID | FirstName | LastName | Email       | Phone  | Address | State |
 |---------|------------|-----------|-------------------|------------|----------|-------|
@@ -54,4 +54,7 @@ FROM Products
 GROUP BY ProductCategory;
 ```
 
+## Data Visualization
+Visualizing total sales by product category using a bar chart:
+![image]("C:\DEEPAK SINGH\mysqlproject\29-04-project-query\output.png")
 
