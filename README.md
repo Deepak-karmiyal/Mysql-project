@@ -1,5 +1,5 @@
 # Swift Market MySQL Database
-
+![image](https://cdn1.expresscomputer.in/wp-content/uploads/2023/01/04165947/EC_Retail_ECommerce_750.jpg)
 
 
 ## Description
@@ -18,12 +18,5 @@ This project provides tools for analyzing sales data to derive insights and make
 - **Top Performers Identification**: Identify top-performing sales representatives based on total sales volume.
 - **Visualization**: Visualize sales data using charts and graphs for better understanding.
 
-## Installation
 
-1. Clone the repository:
-
-
-## Contact
-
-Provide contact information for users to reach out to you with questions, feedback, or inquiries about the project. Include your email address or links to your social media profiles.
 
